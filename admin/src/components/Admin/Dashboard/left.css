@@ -1,0 +1,8 @@
+.navbar.navbar-cls-top {
+    height: auto !important; /* Override the default fixed height */
+  }
+  
+  .navbar-brand {
+    height: 100%; /* Fill the height of the parent container */
+    /* Other styles for your brand element */
+  }

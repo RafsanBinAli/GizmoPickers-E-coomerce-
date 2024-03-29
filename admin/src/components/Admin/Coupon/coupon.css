@@ -1,0 +1,110 @@
+.content-wrapper {
+    margin-left: 380px; /* Adjust as needed */
+    padding: 20px; /* Add padding as needed */
+}
+
+.coupon-form {
+    margin-bottom: 20px;
+}
+
+.coupon-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon-form .form-group {
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.coupon-form label {
+    margin-bottom: 5px;
+}
+
+.coupon-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.coupon-form button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.coupon-form button:hover {
+    background-color: #0056b3;
+}
+
+.coupon-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.coupon-list th, .coupon-list td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.coupon-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.coupon-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.coupon-list tr:hover {
+    background-color: #f2f2f2;
+}
+
+.coupon-list button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.coupon-list button:hover {
+    background-color: #c82333;
+}
+
+.form-group-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the form groups */
+    width: 35%;
+    border: 2px solid #ccc; /* Example border style */
+    padding: 20px; /* Add padding as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.coupon-form h3 {
+    margin-left: 20px;
+    text-align: left; /* Reset text alignment */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .content-wrapper {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .form-group-wrapper {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-group-wrapper {
+        width: 90%;
+    }
+}

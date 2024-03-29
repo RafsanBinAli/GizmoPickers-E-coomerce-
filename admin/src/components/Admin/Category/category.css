@@ -1,0 +1,136 @@
+.category-management {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-left: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+.add-category {
+    padding: 8px 16px;
+    background-color: #359fdc; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.delete-category {
+  padding: 8px 16px;
+  background-color: #dc3545; /* Button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-category:hover {
+  background-color: #c82333; /* Button color on hover */
+}
+
+.button  {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #007bff; /* Default button color */
+  color: #a0a0a0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Button color on hover */
+}
+
+/* Additional button style */
+button.add-sub-category {
+  background-color: #28a745; /* Different button color */
+}
+
+button.add-sub-category:hover {
+  background-color: #218838; /* Different button color on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+button.add-sub-category {
+  padding: 4px 8px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.add-sub-category:hover {
+  background-color: #218838;
+}
+
+.category-management input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.category-management input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-wrapper {
+  width: 20%;
+}
+
+.sub-category-input {
+  width: 200px;
+}
+
+.ted {
+  text-align: left;
+}
+.delete-sub-category {
+  margin-left: 10%;
+}
+@media only screen and (max-width: 768px) {
+    .category-management {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /* Adjust form wrapper and sub-category input */
+    .form-wrapper, .sub-category-input {
+        width: calc(100% - 20px); /* Adjust based on padding */
+        margin-bottom: 10px; /* Add some spacing between elements */
+    }
+}

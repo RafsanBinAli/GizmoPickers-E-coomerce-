@@ -1,0 +1,75 @@
+/* CSS for Feature Products Component */
+.feature-product-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tables-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 45%; /* Adjust as needed */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.feature-product-wrapper {
+    margin-left: 350px;
+}
+.feature-products-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feature-products-table th,
+.feature-products-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.feature-products-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.feature-products-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.feature-products-table tr:hover {
+    background-color: #ddd;
+}
+
+.feature-products-search {
+    margin-bottom: 10px;
+}
+
+.feature-products-search input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.feature-products-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
