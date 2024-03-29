@@ -1,0 +1,65 @@
+/* OrderStatus.css */
+
+.order-status-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.section-heading {
+    margin-bottom: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: black;
+    font-size: 18px; /* Increase font size */
+    margin-right: 12px;
+}
+
+.dynamic-text {
+    color: black;
+    font-size: 18px; /* Increase font size */
+}
+
+.return-home {
+    text-align: center;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.return-home-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.return-home-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .order-status-container {
+        max-width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 10px;
+    }
+
+    .bold-text {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-right: 10px;
+    }
+
+    .dynamic-text {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}

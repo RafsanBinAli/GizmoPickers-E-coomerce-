@@ -1,0 +1,28 @@
+.container {
+    width: 100% !important;
+}
+
+.cart-box-main > div:nth-child(1) > div:nth-child(1) {
+    width: 90%;
+}
+
+.table-main {
+    margin-right: 70px;
+}
+
+.cart-box-main > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    left: 50px;
+}
+.coupon-box{
+    margin-bottom: 50px;
+}
+
+/* .ml-auto,
+.mx-auto {
+    margin-left: auto !important;
+} */
+
+/* Apply margin-left: 30% to anchor tags with .ml-auto */
+.p{
+    margin-left: 30%;
+}
